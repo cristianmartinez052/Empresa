@@ -1,0 +1,20 @@
+{
+    "name": "crist/empresa",
+    "description": "CRUD Empresa",
+    "type": "project",
+    "license": "Free",
+    "autoload": {
+        "psr-4": {
+            "Empresa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cris",
+            "email": "cris@mail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.17"
+    }
+}

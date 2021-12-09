@@ -49,7 +49,7 @@ $stmt = (new Empleado)->readAll();
                             <th>{$datosEmpleado->apellidos}</th>
                             <th>{$datosEmpleado->pais}</th>
                             <th>{$datosEmpleado->email}</th>
-                            <th>{$datosEmpleado->img}</th>
+                            <th><img src='{$datosEmpleado->img}' width='40rem' height='40rem' class='img-thumbnail'>th>
                             <th>{$datosEmpleado->departamento_id}</th>
                             <th>##</th>
                         </tr>
